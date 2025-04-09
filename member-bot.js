@@ -1,8 +1,8 @@
 // member-bot.js — Legacy-compatible version for SquareSpace
 
-var SHEET_LOOKUP_URL = "YOUR_LOOKUP_URL";
-var REQUEST_LOG_URL = "YOUR_LOG_URL";
-var OPENAI_API_KEY = "YOUR_OPENAI_API_KEY";
+var SHEET_LOOKUP_URL = "https://script.google.com/macros/s/AKfycbz_jH4VWi7Jl8JZZ6i8eQyGRcbP-8GsDC8gBkht9pyMW-2o0_GgOMcsCJBps_zE94Xk/exec";
+var REQUEST_LOG_URL = "https://script.google.com/macros/s/AKfycbwcoBy4tinrFV6C0Yh6xxANFojcqs7879uxSVoQKRrVdlYDSFEL6gchjczx5Ob4x-23/exec";
+var OPENAI_API_KEY = "AIzaSyCaDmgxpDhNbez-xIsT5HGhu68SuTy2Qi4";
 
 function initMemberBot(companyName) {
   var chatBox = document.getElementById("chat-interface");
