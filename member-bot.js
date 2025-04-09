@@ -2,7 +2,6 @@
 
 var SHEET_LOOKUP_URL = "https://script.google.com/macros/s/AKfycbz_jH4VWi7Jl8JZZ6i8eQyGRcbP-8GsDC8gBkht9pyMW-2o0_GgOMcsCJBps_zE94Xk/exec";
 var REQUEST_LOG_URL = "https://script.google.com/macros/s/AKfycbwcoBy4tinrFV6C0Yh6xxANFojcqs7879uxSVoQKRrVdlYDSFEL6gchjczx5Ob4x-23/exec";
-var = "AIzaSyCaDmgxpDhNbez-xIsT5HGhu68SuTy2Qi4"; 
 
 function initMemberBot(companyName) {
   var chatBox = document.getElementById("chat-interface");
@@ -10,9 +9,9 @@ function initMemberBot(companyName) {
   chatBox.innerHTML = '' +
     '<h1>Welcome back, ' + companyName + '! What do you need help with today?</h1>' +
     '<div class="chat-buttons">' +
-      '<button onclick="handleMemberOption('get-document')">Get a document</button>' +
-      '<button onclick="handleMemberOption('submit-request')">Submit a request</button>' +
-      '<button onclick="handleMemberOption('view-reminders')">View my reminders</button>' +
+      "<button onclick=\"handleMemberOption('get-document')\">Get a document</button>" +
+      "<button onclick=\"handleMemberOption('submit-request')\">Submit a request</button>" +
+      "<button onclick=\"handleMemberOption('view-reminders')\">View my reminders</button>" +
     '</div>' +
     '<div id="member-chat"></div>';
 }
