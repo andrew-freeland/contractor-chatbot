@@ -1,9 +1,9 @@
 // public-bot.js — Legacy-compatible version for SquareSpace
 
 // 🔧 CONFIG
-const SHEET_LOOKUP_URL = "https://script.google.com/macros/s/AKfycbz_jH4VWi7Jl8JZZ6i8eQyGRcbP-8GsDC8gBkht9pyMW-2o0_GgOMcsCJBps_zE94Xk/exec";
-const REQUEST_LOG_URL = "https://script.google.com/macros/s/AKfycbwcoBy4tinrFV6C0Yh6xxANFojcqs7879uxSVoQKRrVdlYDSFEL6gchjczx5Ob4x-23/exec";
-const OPENAI_API_KEY = "AIzaSyCaDmgxpDhNbez-xIsT5HGhu68SuTy2Qi4"; // Replace with your actual OpenAI key
+var SHEET_LOOKUP_URL = "https://script.google.com/macros/s/AKfycbz_jH4VWi7Jl8JZZ6i8eQyGRcbP-8GsDC8gBkht9pyMW-2o0_GgOMcsCJBps_zE94Xk/exec";
+var REQUEST_LOG_URL = "https://script.google.com/macros/s/AKfycbwcoBy4tinrFV6C0Yh6xxANFojcqs7879uxSVoQKRrVdlYDSFEL6gchjczx5Ob4x-23/exec";
+var OPENAI_API_KEY = "AIzaSyCaDmgxpDhNbez-xIsT5HGhu68SuTy2Qi4"; // Replace with your actual OpenAI key
 
 function initPublicBot() {
   var chatBox = document.getElementById('chat-interface');
