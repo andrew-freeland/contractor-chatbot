@@ -1,7 +1,7 @@
 // public-bot.js — Legacy-compatible version for SquareSpace
 
 // 🔧 CONFIG
-var OPENAI_API_KEY = "YOUR_OPENAI_API_KEY";
+var OPENAI_API_KEY = "AIzaSyCaDmgxpDhNbez-xIsT5HGhu68SuTy2Qi4";
 
 function initPublicBot() {
   var chatBox = document.getElementById('chat-interface');
